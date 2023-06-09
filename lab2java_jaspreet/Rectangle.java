@@ -1,0 +1,17 @@
+class Rectangle implements Polygon {
+    private double length;
+    private double breadth;
+
+    public Rectangle(double length, double breadth) {
+        this.length = length;
+        this.breadth = breadth;
+    }
+
+    public double getArea() {
+        return length * breadth;
+    }
+
+    public int getSides() {
+        return 4;
+    }
+}
